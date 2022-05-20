@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Source sans pro";
+}
+
+input {
+    padding: 4px;
+    font-size: medium;
+}
+
+h3 {
+    background-color: rgb(255, 60, 60);
+    color: #ffffff;
+    text-align: center;
+}
+
+.container {
+    width: 1200px;
+    margin: 0% auto;
+
+}
+
+.res {
+    margin-top: 2rem;
+}
+
+.res i {
+    color: red;
+    margin-left: 10%;
+}
+
+.res input {
+    margin: 10px;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr,
+td {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.left_move input {
+    margin: 0 10px;
+}

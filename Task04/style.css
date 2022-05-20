@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fafafa;
+}
+
+.container {
+    width: 1200px;
+    margin: 0% auto;
+    width: 400px;
+    margin-top: 100px;
+
+}
+
+
+.lgpa1 {
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    border-radius: 2px;
+    text-align: center;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin: 5px;
+    outline: none;
+    background-color: #fafafa;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 16px;
+}
+
+input::placeholder {
+    font-size: 14px;
+}
+
+input:focus {
+    outline: 1px solid rgba(46, 46, 46, 0.603);
+    border-radius: 4px;
+}
+
+.insta-logo {
+    margin-top: 50px;
+}
+
+
+.lgpg {
+    margin-top: 20px;
+}
+
+.lg-btn {
+    width: 75%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.lg-btn:hover {
+    background-color: #218cff;
+}
+
+.lgpm {
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.lgpm p {
+    font-size: 14px;
+    color: #262626;
+
+}
+
+.lgpm a {
+    color: #0095f6;
+    font-weight: 600;
+}
+
+
+
+.oRmv {
+    margin-top: 15px;
+    color: #c4c4c4;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.fbbtn {
+    margin-top: 16px;
+    background-color: #fff;
+    border: none;
+    color: #385185;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.fbbtn:hover {
+    color: #456197;
+}
+
+.fa {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.fgpwd {
+    margin: 18px;
+    font-size: 14px;
+}
+
+.fgpwd a {
+    color: #00376B;
+}
+
+.app {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#astore,
+#gstore {
+    float: left;
+    width: 130px;
+    margin-left: 10px;
+}
+
+.lgimg {
+    margin-top: 20px;
+    margin-left: 50px;
+}
