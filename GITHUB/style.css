@@ -1,0 +1,35 @@
+body {
+    background-color: tomato;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* height: 700px; */
+    /* width: 100%; */
+    align-content: center;
+}
+
+.git-cmd {
+    background-color: #fff;
+    padding: 50px;
+    width: 500px;
+    border: 1px solid gray;
+    /* opacity: 0.3; */
+    margin: 10px;
+
+}
+
+/* .git-cmd:hover {
+    background-color: #fff;
+    opacity: 1;
+    transition: 0.5s;
+    cursor: pointer;
+} */
+
+
+ul li {
+    font-size: 20px;
+}
