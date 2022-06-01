@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Navigation */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+}
+
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    padding: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Banner */
+
+
+.content-wrap {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.con-wrap {
+    position: absolute;
+    top: 15%;
+}
+
+.logo-name h1 {
+    color: #fff;
+    font-size: 75px;
+    font-style: italic;
+    text-shadow: 10px;
+    align-items: center;
+}
+
+.content-name p {
+    color: #fff;
+    font-size: 40px;
+    margin: 10px;
+}
+
+/* search  */
+
+
+.search-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 10px;
+}
+
+.search-locate {
+    padding: 5px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.search-item {
+    background-color: #fff;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 4px;
+    width: 70%;
+}
+
+.search-item input {
+    width: 95%;
+    font-size: 16px;
+    border: none;
+    padding: 8px;
+    outline: none;
+}
+
+.search-locate input {
+    border: none;
+    font-size: 16px;
+    width: 80%;
+    padding: 8px;
+    outline: none;
+}
+
+
+/* Card */
+
+.con-head {
+    text-align: center;
+    margin: 50px;
+}
+
+.con-head p {
+    font-size: 25px;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0% auto;
+
+}
+
+.gallery-row img {
+    width: 350px;
+    height: 250px;
+    padding: 5px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.gall {
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.gall:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: 0 0 10px 0 rgb(211, 211, 211);
+    transition: 0.4s;
+}
+
+.img-cont {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    position: absolute;
+    bottom: 80px;
+    width: 350px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.off {
+
+    padding: 3px 7px;
+    margin: 0 5px;
+    display: block;
+    background-color: rgba(59, 130, 246);
+    ;
+}
+
+.time {
+    padding: 3px;
+    margin: 0 10px;
+    display: block;
+    background-color: rgb(238, 238, 238);
+    color: gray;
+    border-radius: 5px;
+
+}
+
+.gall p {
+    color: gray;
+    font-size: 14px;
+}
+
+.gall h3,
+p {
+    padding: 5px 10px;
+}
+
+/* footer*/
+
+.foot {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* 
+nav {
+    position: sticky;
+    top: 0;
+} */
